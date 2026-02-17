@@ -19,13 +19,13 @@ npm link
 ## Usage
 
 ```bash
-mocking-cli <string>
+mocking <string>
 ```
 
 ### Examples
 
 ```bash
-mocking-cli hello, world!        # HeLlO, wOrLd!
+mocking hello, world!        # HeLlO, wOrLd!
 ```
 
 ### Sample Output

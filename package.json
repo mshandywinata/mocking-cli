@@ -6,7 +6,7 @@
   "author": "Muhamad Shandy Winata",
   "type": "module",
   "bin": {
-    "mocking-cli": "./src/index.js"
+    "mocking": "./src/index.js"
   },
   "main": "index.js",
   "scripts": {
