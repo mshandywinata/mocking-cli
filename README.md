@@ -8,15 +8,30 @@ A terminal-based utility that transforms text into the mOcKiNg sArCaSm format.
 
 A lightweight Node.js utility designed to practice String Manipulation and CLI Argument Handling. It uses a stateful toggle to ensure a consistent alternating pattern, even with spaces and punctuation.
 
+## Installation
+
+```bash
+git clone https://github.com/mshandywinata/mocking-cli.git
+cd mocking-cli
+npm link
+```
+
 ## Usage
 
-Pass your message as arguments after the script path.
+```bash
+mocking-cli <string>
+```
 
-Using Node.js:
+### Examples
+
+```bash
+mocking-cli hello, world!        # HeLlO, wOrLd!
+```
+
+### Sample Output
 
 ```
-node src/index.js "don't you have work to do?"
-Output: dOn'T yOu hAvE wOrK tO dO?
+HeLlO, wOrLd!
 ```
 
 ## Logic

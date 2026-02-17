@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { mocking } from "./mocking.js";
 
 // get input from third index of command
